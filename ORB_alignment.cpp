@@ -4,9 +4,9 @@
 using namespace std;
 using namespace cv;
 
-int MAX_FEATURES = 5000;			// detect 5000 ORB features
+int MAX_FEATURES = 5000;		// detect 5000 ORB features
 float GOOD_MATCH_PERCENT = 0.1f;	// pick top 10% ORB features
-bool fDrawMatches = true;			// a flag for displaying matches
+bool fDrawMatches = true;		// a flag for displaying matches
 
 // Read and cut image into RGB channels
 vector<Mat> readImg(const string& path) {
